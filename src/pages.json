@@ -3,25 +3,29 @@
 		{
 			"path": "pages/LawQuery/law_query",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationStyle":"custom",
+				"disableScroll": true
 			}
 		},
 		{
 			"path": "pages/Consultation/consultation",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationStyle":"custom",
+				"disableScroll": true
 			}
 		},
 		{
 			"path": "pages/Forum/forum",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationStyle":"custom",
+				"disableScroll": true
 			}
 		},
 		{
 			"path": "pages/My/my",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationStyle":"custom",
+				"disableScroll": true
 			}
 		}
 	],
@@ -34,7 +38,7 @@
 	"tabBar":{
 		"backgroundColor":"#FFFFFF",
 		"color":"#000000",
-		"selectedColor":"#07C160",
+		"selectedColor":"#9B0000",
 		"list":[
 			{
 				"iconPath":"static/image/law_query_unselected.png",
@@ -61,5 +65,7 @@
 				"pagePath":"pages/My/my"
 			}
 		]
-	}
+	},
+	"lazyCodeLoading": "requiredComponents",
+	"renderer": "skyline"
 }

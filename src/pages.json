@@ -33,7 +33,7 @@
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "法律咨询",
         "navigationBarBackgroundColor": "#F8F8F8",
-        "backgroundColor": "#F8F8F8"
+        "backgroundColor": "#F0F0F0"
     },
     "tabBar": {
         "backgroundColor": "#FFFFFF",

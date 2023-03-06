@@ -1,71 +1,71 @@
 {
-	"pages": [
-		{
-			"path": "pages/LawQuery/law_query",
-			"style": {
-				"navigationStyle": "custom",
-				"disableScroll": true
-			}
-		},
-		{
-			"path": "pages/Consultation/consultation",
-			"style": {
-				"navigationStyle": "custom",
-				"disableScroll": true
-			}
-		},
-		{
-			"path": "pages/Forum/forum",
-			"style": {
-				"navigationStyle": "custom",
-				"disableScroll": true
-			}
-		},
-		{
-			"path": "pages/My/my",
-			"style": {
-				"navigationStyle": "custom",
-				"disableScroll": true
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "法律咨询",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar": {
-		"backgroundColor": "#FFFFFF",
-		"color": "#000000",
-		"selectedColor": "#9B0000",
-		"list": [
-			{
-				"iconPath": "static/image/law_query_unselected.png",
-				"selectedIconPath": "static/image/law_query_selected.png",
-				"text": "法律查询",
-				"pagePath": "pages/LawQuery/law_query"
-			},
-			{
-				"iconPath": "static/image/consultation_unselected.png",
-				"selectedIconPath": "static/image/consultation_selected.png",
-				"text": "咨询",
-				"pagePath": "pages/Consultation/consultation"
-			},
-			{
-				"iconPath": "static/image/forum_unselected.png",
-				"selectedIconPath": "static/image/forum_selected.png",
-				"text": "论坛",
-				"pagePath": "pages/Forum/forum"
-			},
-			{
-				"iconPath": "static/image/my_unselected.png",
-				"selectedIconPath": "static/image/my_selected.png",
-				"text": "我的",
-				"pagePath": "pages/My/my"
-			}
-		]
-	},
-	"lazyCodeLoading": "requiredComponents",
-	"renderer": "skyline"
+    "pages": [
+        {
+            "path": "pages/LawQuery/law_query",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/Consultation/consultation",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/Forum/forum",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        },
+        {
+            "path": "pages/My/my",
+            "style": {
+                "navigationStyle": "custom",
+                "disableScroll": true
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "法律咨询",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "backgroundColor": "#FFFFFF",
+        "color": "#000000",
+        "selectedColor": "#9B0000",
+        "list": [
+            {
+                "iconPath": "static/image/law_query_unselected.png",
+                "selectedIconPath": "static/image/law_query_selected.png",
+                "text": "法律查询",
+                "pagePath": "pages/LawQuery/law_query"
+            },
+            {
+                "iconPath": "static/image/consultation_unselected.png",
+                "selectedIconPath": "static/image/consultation_selected.png",
+                "text": "咨询",
+                "pagePath": "pages/Consultation/consultation"
+            },
+            {
+                "iconPath": "static/image/forum_unselected.png",
+                "selectedIconPath": "static/image/forum_selected.png",
+                "text": "论坛",
+                "pagePath": "pages/Forum/forum"
+            },
+            {
+                "iconPath": "static/image/my_unselected.png",
+                "selectedIconPath": "static/image/my_selected.png",
+                "text": "我的",
+                "pagePath": "pages/My/my"
+            }
+        ]
+    },
+    "lazyCodeLoading": "requiredComponents",
+    "renderer": "skyline"
 }
